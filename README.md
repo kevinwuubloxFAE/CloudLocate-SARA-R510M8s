@@ -52,4 +52,7 @@ MQTTSN_PUB_TOPIC = "CloudLocate/GNSS/request"  #we need to publish our base64 en
 
 MQTTSN_SUB_TOPIC = "CloudLocate/GNSS/position"  # we will get a position back on this topic in the Flows, so we need to subscribe to it
 
+## Execute the python code
+The code is made under Python3.9
 
+C:\>python.exe at_cloudlocate_test.py
