@@ -58,3 +58,10 @@ MQTTSN_SUB_TOPIC = "CloudLocate/GNSS/position"  # we will get a position back on
 The code is made under Python3.9
 
 C:\>python.exe at_cloudlocate_test.py
+connect..
+=== Startup ===
+2021-08-16 12:49:19:input->ate0
+================
+Press "run" to perform CloudLocate
+Press "AT" to perform AT commands
+Press "q" to exit
