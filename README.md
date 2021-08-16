@@ -43,7 +43,7 @@ Password = "Your password"
 ### MQTT-SN credentials
 In the lin 76:
 
-SNuniqueID = "Your MQTT-SN unique ID"
+SNuniqueID = "Your MQTT-SN unique ID"  #The unique ID is [IoT SIM](https://www.u-blox.com/en/product/iot-sim-card).
 
 ### A Topic for publishing and subscribing in the Flows
 In the line 96:
