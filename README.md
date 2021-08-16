@@ -6,7 +6,7 @@ The python code is from [Developer.ThingStream](https://developer.thingstream.io
 
 The credentials of a "CloudLocate Location Thing" and a "Thing" can be created in the [ThingStream](https://www.u-blox.com/en/product/thingstream)
 
-## Modified the parameters for testing
+## Modify the parameters for testing
 ### Global Variant
 In the line 39 : 
 
