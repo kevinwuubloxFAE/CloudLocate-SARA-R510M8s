@@ -4,11 +4,19 @@ The purpose of this guide is to learn how to get  the real-time MEASX messages f
 
 The python code is developing from [Developer.ThingStream](https://developer.thingstream.io/guides/location-services/cloudlocate-getting-started/getting-real-time-measx-messages-from-gnss#h.zi36djdj2y43) and modifying using SARA-R510M8s.
 
-The credentials of a "CloudLocate Location Thing" and a "Thing" with MQTT can be created in the [ThingStream](https://www.u-blox.com/en/product/thingstream)
+The credentials of a "CloudLocate Location Thing" and a "Thing" can be created in the [ThingStream](https://www.u-blox.com/en/product/thingstream)
 
 A "CloudLocate Location Thing" and a "CloudLocate node" in the Flows are available. You may choose either one or use both of them with double charged
 
-The [IoT SIM](https://www.u-blox.com/en/product/iot-sim-card) with MQTT-SN is also available in the code.
+The [IoT SIM](https://www.u-blox.com/en/product/iot-sim-card) with MQTT-Anywhere is also available in the code.
+
+There are two ways to retrieve the position via "CloudLocate Location Thing" and "CloudLocate node" in the Flows
+
+1. Sending messages to "CloudLocate Location Thing" by a "Thing" with MQTT-Now or a "IoT SIM" with MQTT-Anywhere
+
+2. Sending messages to "CloudLocate node" in the Flows by a "Thing" with MQTT-Now or a "IoT SIM" with MQTT-Anywhere
+
+Where [MQTT-Now](https://www.u-blox.com/en/product/mqtt-now) works on MQTT and [MQTT-Anywhere](https://www.u-blox.com/en/product/mqtt-anywhere) works on MQTT-SN
 
 ## Modify the parameters for testing
 ### Global Variant
@@ -20,7 +28,7 @@ run_retry_times = 1  # To define how many times will be tested.
 
 run_wait_time = 30  # To define the waiting time(seconds) for the next action.
 
-MQTTPubData = False # To define which protocol will be tested, True:MQTT; False:MQTT-SN
+MQTTPubData = True # To define which protocol will be tested, True:MQTT; False:MQTT-SN
 
 TIMEOUT = 12 # Timeout time in seconds
 
@@ -35,7 +43,7 @@ EPOCHS = 2 # To define how many epochs will be used, more epochs will get the be
 ### Credentials
 In the line 70:  
 
-#it can be created by a "Location Thing" or a "Thing" in the ThingStream
+#it can be created by a "CloudLocate Location Thing" or a "Thing" in the ThingStream
 
 Hostname = "mqtt.thingstream.io" 
 
