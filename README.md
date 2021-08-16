@@ -31,9 +31,11 @@ MULTIPATH_INDEX = 1 # 1:low 2:medium 3: high
 EPOCHS = 2 # To define how many epochs will be used, more epochs will get the better position accuracy 
 
 ### Credentials
-In the line 70:
+In the line 70:  
 
-Hostname = "mqtt.thingstream.io" #it can be created by a "Location Thing" or a "Thing" in the ThingStream
+#it can be created by a "Location Thing" or a "Thing" in the ThingStream
+
+Hostname = "mqtt.thingstream.io" 
 
 DeviceID = "Your device ID"
 
