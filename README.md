@@ -2,9 +2,7 @@
 ## Introduction 
 The purpose of this guide is to learn how to get  the real-time MEASX messages from [u-blox SARA-R510M8s EVK](https://www.u-blox.com/en/product/evk-r5) without using u-center, and sending the message to the [CloudLocate](https://www.u-blox.com/en/product/cloudlocate) service.
 
-The python code is from [Developer.ThingStream](https://developer.thingstream.io/guides/location-services/cloudlocate-getting-started/getting-real-time-measx-messages-from-gnss#h.zi36djdj2y43)
-
- and then modified and used for SARA-R510M8s.
+The python code is from [Developer.ThingStream](https://developer.thingstream.io/guides/location-services/cloudlocate-getting-started/getting-real-time-measx-messages-from-gnss#h.zi36djdj2y43) and then modified and used for SARA-R510M8s.
 
 The credentials of a "CloudLocate Location Thing" and a "Thing" can be created in the [ThingStream](https://www.u-blox.com/en/product/thingstream)
 
