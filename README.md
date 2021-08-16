@@ -35,7 +35,7 @@ In the line 70:
 
 Hostname = "mqtt.thingstream.io" #it can be created by a "Location Thing" or a "Thing" in the ThingStream
 
-DeviceID = "Your MQTT device ID"
+DeviceID = "Your device ID"
 
 Username = "Your username"
 
