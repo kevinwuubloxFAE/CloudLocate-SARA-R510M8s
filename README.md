@@ -6,6 +6,8 @@ The python code is developing from [Developer.ThingStream](https://developer.thi
 
 The credentials of a "CloudLocate Location Thing" and a "Thing" with MQTT can be created in the [ThingStream](https://www.u-blox.com/en/product/thingstream)
 
+A "CloudLocate Location Thing" and a "CloudLocate node" in the Flows are available. You may choose either one or use both of them with double charged
+
 The [IoT SIM](https://www.u-blox.com/en/product/iot-sim-card) with MQTT-SN is also available in the code.
 
 ## Modify the parameters for testing
@@ -49,7 +51,7 @@ In the lin 76:
 
 SNuniqueID = "Your MQTT-SN unique ID"  #The unique ID is [IoT SIM](https://www.u-blox.com/en/product/iot-sim-card).
 
-### A Topic for publishing and subscribing in the Flows
+### A Topic with "Location node" for publishing and subscribing in the Flows
 In the line 96:
 
 MQTTSN_PUB_TOPIC = "CloudLocate/GNSS/request"  #we need to publish our base64 encoded message on this topic in the Flows
