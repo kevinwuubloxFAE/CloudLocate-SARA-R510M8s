@@ -4,7 +4,9 @@ The purpose of this guide is to learn how to get  the real-time MEASX messages f
 
 The python code is from [Developer.ThingStream](https://developer.thingstream.io/guides/location-services/cloudlocate-getting-started/getting-real-time-measx-messages-from-gnss#h.zi36djdj2y43) and then modified and used for SARA-R510M8s.
 
-The credentials of a "CloudLocate Location Thing" and a "Thing" can be created in the [ThingStream](https://www.u-blox.com/en/product/thingstream)
+The credentials of a "CloudLocate Location Thing" and a "Thing" with MQTT can be created in the [ThingStream](https://www.u-blox.com/en/product/thingstream)
+
+The [IoT SIM](https://www.u-blox.com/en/product/iot-sim-card) with MQTT-SN is also available in the code.
 
 ## Modify the parameters for testing
 ### Global Variant
@@ -31,7 +33,7 @@ EPOCHS = 2 # To define how many epochs will be used, more epochs will get the be
 ### Credentials
 In the line 70:
 
-Hostname = "mqtt.thingstream.io" #it can be created by a Thing in the ThingStream
+Hostname = "mqtt.thingstream.io" #it can be created by a "Location Thing" or a "Thing" in the ThingStream
 
 DeviceID = "Your MQTT device ID"
 
