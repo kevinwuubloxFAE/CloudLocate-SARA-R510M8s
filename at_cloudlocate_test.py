@@ -4,10 +4,10 @@
 # Test Python version: 3.9
 # The code version : 2.4 
 # run "pip install pyserial" or "python -m pip install pyserial"
-# Add criterias to improve the position accuracy (2021/7/12)
+# Add criteria to improve the position accuracy (2021/7/12)
 # Add fallback methodology and subscribe topic(2021/7/29)
 # Modify an issue with lambda x: x[1]["cno"] >= CNO_THRESHOLD (2021/8/4)
-# Add UBX commands to switch GPS/GLONASS/Galileo/Beidou only for tesing, however CloudLocate is only supported GPS (2021/8/6)
+# Add UBX commands to switch GPS/GLONASS/Galileo/Beidou only for testing, however CloudLocate is only supported GPS so far.(2021/8/6)
 # Add MQTT-SN for testing using ThingStream's SIM card with "TSUDP", MQTTPubData is used for switching MQTT with "True" and MQTT-SN with "False" (2021/8/12)
 # The payload size of MQTT-SN is only supported 1017 bytes, thus epochs will be 1~2
 #====================================================================
@@ -39,7 +39,7 @@ FALLBACK_CONFIG = {
 SerialPort = "COM5"  # uart port of SARA-R510M8s 
 run_retry_times = 1  # To define how many times will be tested.
 run_wait_time = 30  #To define the waiting time for the next action.
-MQTTPubData = False # True:MQTT; False:MQTT-SN
+MQTTPubData = True # True:MQTT; False:MQTT-SN
 
 TIMEOUT = 12 # in seconds
 CNO_THRESHOLD = 22
