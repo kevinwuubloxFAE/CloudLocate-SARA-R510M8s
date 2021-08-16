@@ -30,6 +30,7 @@ EPOCHS = 2 # To define how many epochs will be used, more epochs will get the be
 
 ### Credentials
 In the line 70:
+
 Hostname = "mqtt.thingstream.io" #it can be created by a Thing in the ThingStream
 
 DeviceID = "Your MQTT device ID"
@@ -39,12 +40,12 @@ Username = "Your username"
 Password = "Your password" 
 
 
-###MQTT-SN credentials
+### MQTT-SN credentials
 In the lin 76:
 
 SNuniqueID = "Your MQTT-SN unique ID"
 
-###Topic for publishing and subscribing in the Flows
+### Topic for publishing and subscribing in the Flows
 In the line 96:
 
 MQTTSN_PUB_TOPIC = "CloudLocate/GNSS/request"  #we need to publish our base64 encoded message on this topic in the Flows
