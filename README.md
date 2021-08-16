@@ -45,7 +45,7 @@ In the lin 76:
 
 SNuniqueID = "Your MQTT-SN unique ID"
 
-### Topic for publishing and subscribing in the Flows
+### A Topic for publishing and subscribing in the Flows
 In the line 96:
 
 MQTTSN_PUB_TOPIC = "CloudLocate/GNSS/request"  #we need to publish our base64 encoded message on this topic in the Flows
