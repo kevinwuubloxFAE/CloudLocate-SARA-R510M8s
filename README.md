@@ -65,7 +65,7 @@ connect..
 
 2021-08-16 12:53:16:input->ate0
 
-2021-08-16 12:53:16:output->OK
+2021-08-16 12:53:16:output->OK  # module is ready
 
 ================
 
